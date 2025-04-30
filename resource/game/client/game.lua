@@ -1,0 +1,1 @@
+DecorRegister("Player_Vehicle", 3)
