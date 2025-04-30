@@ -2,21 +2,36 @@
 ==================================== [ ES | ES | ES ] ====================================
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-🛡️ Disclaimer Legal – abp_lib
-Este proyecto, abp_lib, es una bifurcación (fork) del repositorio ox_lib creado originalmente por el equipo de Overextended (OX). Tras el cierre oficial de Overextended y el archivado de sus repositorios públicos, este proyecto nace con el objetivo de preservar, extender y mejorar la funcionalidad original de ox_lib.
+Aviso legal – abp_lib
 
-ox_lib fue distribuido bajo la licencia MIT, la cual permite explícitamente el uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta de copias del software, siempre que se incluya una copia del aviso de copyright original y la declaración de la licencia.
+abp_lib es un clon/copia/fork de `ox_lib`, desarrollada originalmente por el equipo de Overextended y publicada bajo la Licencia Pública General Reducida de GNU v3.0 (LGPL-3.0).
 
-Este proyecto respeta y mantiene los términos de dicha licencia, reconociendo a los autores originales del proyecto. No se realiza ningún intento de apropiación indebida del trabajo original, sino todo lo contrario: se honra el espíritu de software libre y de código abierto permitiendo que la comunidad continúe beneficiándose de este desarrollo ahora discontinuado oficialmente.
+Este proyecto se creó con los siguientes objetivos:
 
-abp_lib tiene como propósito:
-- Incorporar nuevas funcionalidades y mejoras activamente mantenidas.
-- Brindar soporte continuo a la comunidad hispana y general de FiveM.
-- Facilitar la compatibilidad con otros recursos activos.
+- Preservar y ampliar la funcionalidad de `ox_lib`, ya archivada.
+- Añadir nuevas características, utilidades y mejoras de rendimiento.
+- Ofrecer soporte y desarrollo continuos a la comunidad.
 
-Si algún colaborador del proyecto original desea contribuir, solicitar atribuciones adicionales o reportar cualquier inquietud, será bienvenido a contactarnos.
+Aviso de licencia
 
-Este proyecto es legal, permitido bajo la licencia MIT y se realiza con respeto y reconocimiento al equipo original de Overextended.
+Este proyecto cumple plenamente con los términos de la licencia LGPL v3.0.
+Bajo estos términos:
+
+- Tiene libertad de usar, modificar y redistribuir este código.
+- Cualquier modificación debe conservar la misma licencia LGPL v3.0.
+- Si se enlaza dinámicamente, el usuario debe tener acceso al código fuente modificado.
+- Se deben conservar todos los avisos de derechos de autor originales.
+
+Respeto a los Autores Originales
+
+Damos todo el crédito a los autores originales de `ox_lib` y Overextended.
+Esta bifurcación no pretende atribuirse la propiedad de su trabajo, sino mantenerlo y desarrollarlo para el uso continuo de la comunidad, de acuerdo con las licencias de código abierto.
+
+Para más información, consulte la licencia oficial:
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+Este proyecto cumple con la legislación vigente y está abierto a contribuciones. Si alguno de los autores originales desea hablar sobre la atribución o la colaboración, puede ponerse en contacto con nosotros en cualquier momento.
+
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -24,18 +39,32 @@ Este proyecto es legal, permitido bajo la licencia MIT y se realiza con respeto 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-🛡️ Legal Disclaimer – abp_lib
-This project, abp_lib, is a fork of the ox_lib repository originally created by the Overextended (OX) team. Following the official closure of Overextended and the archiving of its public repositories, this project was born with the goal of preserving, expanding, and improving the original functionality of ox_lib.
+Legal Disclaimer – abp_lib
 
-ox_lib was distributed under the MIT License, which specifically permits the use, copying, modification, merging, publication, distribution, sublicensing, and/or sale of copies of the software, provided that a copy of the original copyright notice and license statement are included.
+abp_lib is a clone/copy/fork of `ox_lib`, originally developed by the Overextended team and released under the GNU Lesser General Public License v3.0 (LGPL-3.0).
 
-This project respects and maintains the terms of that license, acknowledging the original authors of the project. No attempt is made to misappropriate the original work; on the contrary, the spirit of free and open source software is honored by allowing the community to continue to benefit from this now officially discontinued development.
+This project was created with the following goals:
 
-The purpose of abp_lib is to:
-- Incorporate new and improved features that are actively maintained.
-- Provide ongoing support to the Spanish-speaking and general FiveM community.
-- Facilitate compatibility with other active resources.
+- Preserve and extend the functionality of the now-archived `ox_lib`.
+- Add new features, utilities, and performance improvements.
+- Offer continued support and development for the community.
 
-If any contributor to the original project would like to contribute, request additional attribution, or report any concerns, they are welcome to contact us.
+License Notice
 
-This project is legal, licensed under the MIT License, and is developed with respect and recognition to the original Overextended team.
+This project fully complies with the terms of the LGPL v3.0 license.  
+Under these terms:
+
+- You are free to use, modify, and redistribute this code.
+- Any modifications must retain the same LGPL v3.0 license.
+- If dynamically linked, the user must have access to the modified source.
+- All original copyright notices must be preserved.
+
+Respect for the Original Authors
+
+We give full credit to the original authors of `ox_lib` and Overextended.  
+This fork is not an attempt to claim ownership of their work, but rather to maintain and evolve it for continued community use, in accordance with open-source licensing.
+
+For more information, see the official license:  
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+This project is legally compliant and open for contribution. If any of the original authors wish to discuss attribution or collaboration, they are welcome to reach out at any time.
