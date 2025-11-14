@@ -24,6 +24,7 @@ Menu.Open = function(type, name, data, submit, cancel, change, close)
 	menu.submit    = submit
 	menu.cancel    = cancel or nopeCancel
 	menu.change    = change or nope
+	menu.closeFunc = close or nope
 
 	menu.close = function()
 
@@ -39,7 +40,7 @@ Menu.Open = function(type, name, data, submit, cancel, change, close)
 			end
 		end
 
-		if close then close() end
+		if menu.closeFunc then menu.closeFunc() end
 	end
 
 	menu.update = function(query, newData)
@@ -60,10 +61,19 @@ Menu.Open = function(type, name, data, submit, cancel, change, close)
 			end
 		end
 
+		menu.refresh()
 	end
 
 	menu.onSubmit = function(submit)
 		menu.submit = submit
+	end
+
+	menu.onChange = function(change)
+		menu.change = change
+	end
+
+	menu.onClose = function(close)
+		menu.closeFunc = close
 	end
 
 	menu.refresh = function()
@@ -108,6 +118,24 @@ Menu.Open = function(type, name, data, submit, cancel, change, close)
 
 			end
 		end
+	end
+
+	menu.getItemByKey = function(key, value)
+		for i = 1, #menu.data.elements, 1 do
+			if menu.data.elements[i][key] == value then
+				return menu.data.elements[i]
+			end
+		end
+		return nil
+	end
+
+	menu.getItemByValue = function(value)
+		for i = 1, #menu.data.elements, 1 do
+			if menu.data.elements[i].value == value then
+				return menu.data.elements[i]
+			end
+		end
+		return nil
 	end
 
 	table.insert(Menu.Opened, menu)
