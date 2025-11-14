@@ -4,7 +4,7 @@ game 'gta5'
 name "abp_lib"
 description "A library of shared functions to utilise in other resources."
 author "AlexBanPer"
-version "1.0.0"
+version "1.1.0"
 
 lua54 'yes'
 
